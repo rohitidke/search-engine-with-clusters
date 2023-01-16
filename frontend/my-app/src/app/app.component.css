@@ -1,0 +1,66 @@
+.center {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.title-center {
+flex: 1 1 auto;
+text-align: center;
+}
+
+.example-form {
+width: 50%;
+}
+
+.example-full-width-field {
+width: 100%;
+}
+
+.example-card {
+width: 70%;
+}
+
+@media (min-width:320px)  { 
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */  
+    .example-card {
+        width: 90%;
+    }
+    .example-form {
+        width: 90%;
+    }
+}
+
+@media (min-width:480px)  { 
+    /* smartphones, Android phones, landscape iPhone */ 
+    .example-card {
+        width: 80%;
+    }
+    .example-form {
+        width: 80%;
+    }
+}
+@media (min-width:600px)  { 
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+    .example-form {
+        width: 70%;
+    }
+}
+@media (min-width:801px)  { 
+    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    .example-form {
+        width: 60%;
+    }
+}
+@media (min-width:1025px) { 
+    /* big landscape tablets, laptops, and desktops */ 
+    .example-form {
+        width: 50%;
+    }
+}
+@media (min-width:1281px) {
+    /* hi-res laptops and desktops */ 
+    .example-card {
+        width: 70%;
+    }
+}
